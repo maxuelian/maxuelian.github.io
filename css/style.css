@@ -1463,7 +1463,14 @@ a {
   line-height: 22.400000000000002px;
 }
 .article-entry .highlight .gutter pre,
-.article-entry .gist .gist-file .gist-data .line-numbers {
+.article-entry .highlight .gist .gist-data .line-numbers,
+.article-entry .highlight margin: 0 article-padding * -1 .gist-data .line-numbers,
+.article-entry .highlight border-style: solid .gist-data .line-numbers,
+.article-entry .highlight border-color: color-border .gist-data .line-numbers,
+.article-entry .highlight border-width: 1px 0 .gist-data .line-numbers,
+.article-entry .highlight background: code-bgc .gist-data .line-numbers,
+.article-entry .highlight padding: 15px article-padding 15px 0 .gist-data .line-numbers,
+.article-entry .highlight .gist-file .gist-data .line-numbers {
   color: #666;
 }
 .article-entry pre,
@@ -1526,39 +1533,72 @@ a {
 }
 .article-entry .highlight .line {
   font-size: 15px;
-  height: 15px;
 }
-.article-entry .gist {
-  margin: 0 -20px;
-  border-style: solid;
-  border-color: #ddd;
-  border-width: 1px 0;
-  background: #272822;
-  padding: 15px 20px 15px 0;
-}
-.article-entry .gist .gist-file {
+.article-entry .highlight .gist,
+.article-entry .highlight margin: 0 article-padding * -1,
+.article-entry .highlight border-style: solid,
+.article-entry .highlight border-color: color-border,
+.article-entry .highlight border-width: 1px 0,
+.article-entry .highlight background: code-bgc,
+.article-entry .highlight padding: 15px article-padding 15px 0,
+.article-entry .highlight .gist-file {
   border: none;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   margin: 0;
 }
-.article-entry .gist .gist-file .gist-data {
+.article-entry .highlight .gist .gist-data,
+.article-entry .highlight margin: 0 article-padding * -1 .gist-data,
+.article-entry .highlight border-style: solid .gist-data,
+.article-entry .highlight border-color: color-border .gist-data,
+.article-entry .highlight border-width: 1px 0 .gist-data,
+.article-entry .highlight background: code-bgc .gist-data,
+.article-entry .highlight padding: 15px article-padding 15px 0 .gist-data,
+.article-entry .highlight .gist-file .gist-data {
   background: none;
   border: none;
 }
-.article-entry .gist .gist-file .gist-data .line-numbers {
+.article-entry .highlight .gist .gist-data .line-numbers,
+.article-entry .highlight margin: 0 article-padding * -1 .gist-data .line-numbers,
+.article-entry .highlight border-style: solid .gist-data .line-numbers,
+.article-entry .highlight border-color: color-border .gist-data .line-numbers,
+.article-entry .highlight border-width: 1px 0 .gist-data .line-numbers,
+.article-entry .highlight background: code-bgc .gist-data .line-numbers,
+.article-entry .highlight padding: 15px article-padding 15px 0 .gist-data .line-numbers,
+.article-entry .highlight .gist-file .gist-data .line-numbers {
   background: none;
   border: none;
   padding: 0 20px 0 0;
 }
-.article-entry .gist .gist-file .gist-data .line-data {
+.article-entry .highlight .gist .gist-data .line-data,
+.article-entry .highlight margin: 0 article-padding * -1 .gist-data .line-data,
+.article-entry .highlight border-style: solid .gist-data .line-data,
+.article-entry .highlight border-color: color-border .gist-data .line-data,
+.article-entry .highlight border-width: 1px 0 .gist-data .line-data,
+.article-entry .highlight background: code-bgc .gist-data .line-data,
+.article-entry .highlight padding: 15px article-padding 15px 0 .gist-data .line-data,
+.article-entry .highlight .gist-file .gist-data .line-data {
   padding: 0 !important;
 }
-.article-entry .gist .gist-file .highlight {
+.article-entry .highlight .gist .highlight,
+.article-entry .highlight margin: 0 article-padding * -1 .highlight,
+.article-entry .highlight border-style: solid .highlight,
+.article-entry .highlight border-color: color-border .highlight,
+.article-entry .highlight border-width: 1px 0 .highlight,
+.article-entry .highlight background: code-bgc .highlight,
+.article-entry .highlight padding: 15px article-padding 15px 0 .highlight,
+.article-entry .highlight .gist-file .highlight {
   margin: 0;
   padding: 0;
   border: none;
 }
-.article-entry .gist .gist-file .gist-meta {
+.article-entry .highlight .gist .gist-meta,
+.article-entry .highlight margin: 0 article-padding * -1 .gist-meta,
+.article-entry .highlight border-style: solid .gist-meta,
+.article-entry .highlight border-color: color-border .gist-meta,
+.article-entry .highlight border-width: 1px 0 .gist-meta,
+.article-entry .highlight background: code-bgc .gist-meta,
+.article-entry .highlight padding: 15px article-padding 15px 0 .gist-meta,
+.article-entry .highlight .gist-file .gist-meta {
   background: #272822;
   color: highlight-comment;
   font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1567,11 +1607,25 @@ a {
   margin-top: 1em;
   margin-left: 20px;
 }
-.article-entry .gist .gist-file .gist-meta a {
+.article-entry .highlight .gist .gist-meta a,
+.article-entry .highlight margin: 0 article-padding * -1 .gist-meta a,
+.article-entry .highlight border-style: solid .gist-meta a,
+.article-entry .highlight border-color: color-border .gist-meta a,
+.article-entry .highlight border-width: 1px 0 .gist-meta a,
+.article-entry .highlight background: code-bgc .gist-meta a,
+.article-entry .highlight padding: 15px article-padding 15px 0 .gist-meta a,
+.article-entry .highlight .gist-file .gist-meta a {
   color: #258fb8;
   font-weight: normal;
 }
-.article-entry .gist .gist-file .gist-meta a:hover {
+.article-entry .highlight .gist .gist-meta a:hover,
+.article-entry .highlight margin: 0 article-padding * -1 .gist-meta a:hover,
+.article-entry .highlight border-style: solid .gist-meta a:hover,
+.article-entry .highlight border-color: color-border .gist-meta a:hover,
+.article-entry .highlight border-width: 1px 0 .gist-meta a:hover,
+.article-entry .highlight background: code-bgc .gist-meta a:hover,
+.article-entry .highlight padding: 15px article-padding 15px 0 .gist-meta a:hover,
+.article-entry .highlight .gist-file .gist-meta a:hover {
   text-decoration: underline;
 }
 pre .comment {
