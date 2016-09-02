@@ -72,7 +72,7 @@
 						<li>Tags</li>
 						
 						
-						<li>Über</li>
+						<li>About</li>
 						
 					</ul>
 				</div>
@@ -207,15 +207,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##git基本命令总结<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">mkdir: XX(创建一个空目录 XX指目录名)  </div><div class="line">pwd: 显示当前目录的路径  </div><div class="line">git init 把当前的目录变成可以管理的git仓库，生成隐藏.git文件  </div><div class="line">git add XX 把xx文件添加到暂存区去。  </div><div class="line">git commit –m “XX” 提交文件 –m 后面的是注释  </div><div class="line">git status 查看仓库状态  </div><div class="line">git diff XX 查看XX文件修改了那些内容  </div><div class="line">git log 查看历史记录  </div><div class="line">git reset –hard HEAD^ 或者 git reset –hard HEAD~ 回退到上一个版本(如果想回退到100个版本，使用git reset –hard HEAD~100 )  </div><div class="line">cat XX 查看XX文件内容    </div><div class="line">git reflog 查看历史记录的版本号id    </div><div class="line">git checkout — XX 把XX文件在工作区的修改全部撤销。    </div><div class="line">git rm XX 删除XX文件  </div><div class="line">git rm -rf 删除workspace所有文件  </div><div class="line">git remote add origin https://github.com/ZG-frank/xxx.git 关联一个远程库  </div><div class="line">git push –u(第一次要用-u 以后不需要) origin master 把当前master分支推送到远程库  </div><div class="line">git clone https://github.com/ZG-frank/xxx.git 从远程库中克隆  </div><div class="line">git checkout –b dev 创建dev分支 并切换到dev分支上  </div><div class="line">git checkout –b gh-pages origin/gh-pages 新建gh-pages分支，该分支是在远程分支“origin/gh-  pages”分支下面分化出来的，并切换到新建出来的”gh-pages”分支  </div><div class="line">git branch 查看当前所有的分支  </div><div class="line">git checkout master 切换回master分支  </div><div class="line">git merge dev 在当前的分支上合并dev分支  </div><div class="line">git branch –d dev 删除dev分支  </div><div class="line">git branch name 创建分支  </div><div class="line">git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作  </div><div class="line">git stash list 查看所有被隐藏的文件列表  </div><div class="line">git stash apply 恢复被隐藏的文件，但是内容不删除  </div><div class="line">git stash drop 删除文件  </div><div class="line">git stash pop 恢复文件的同时 也删除文件  </div><div class="line">git remote 查看远程库的信息  </div><div class="line">git remote –v 查看远程库的详细信息  </div><div class="line">git push origin master Git会把master分支推送到远程库对应的远程分支上</div></pre></td></tr></table></figure></p>
-<hr>
-<hr>
-<h3 id="版权声明"><a href="#版权声明" class="headerlink" title="版权声明"></a>版权声明</h3><p>由 <a href="maxuelian.github.io">马雪莲</a> 创作并维护 <a href="maxuelian.github.io">马雪莲的博客</a> 采用 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。</p>
-<p>本文首发于马雪莲的博客（ maxuelian.github.io），版权所有，侵权必究。</p>
-<p>我的联系方式，QQ：838505616</p>
-<p>######如果觉得我的文章对您有用，请随意打赏，您的支持将鼓励我继续创作！</p>
-<p><img src="http://i1.piimg.com/1949/2a51a1a48f059dc7.png" alt="打赏我"></p>
-
+        <p>##git基本命令总结<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">mkdir: XX(创建一个空目录 XX指目录名)  </div><div class="line">pwd: 显示当前目录的路径  </div><div class="line">git init 把当前的目录变成可以管理的git仓库，生成隐藏.git文件  </div><div class="line">git add XX 把xx文件添加到暂存区去。  </div><div class="line">git commit –m “XX” 提交文件 –m 后面的是注释  </div><div class="line">git status 查看仓库状态  </div><div class="line">git diff XX 查看XX文件修改了那些内容  </div><div class="line">git log 查看历史记录</div></pre></td></tr></table></figure></p>
       
     </div>
     
@@ -228,6 +220,10 @@
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/09/01/git-notes/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -271,23 +267,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+        <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<hr>
-<hr>
-<h3 id="版权声明"><a href="#版权声明" class="headerlink" title="版权声明"></a>版权声明</h3><p>由 <a href="maxuelian.github.io">马雪莲</a> 创作并维护 <a href="maxuelian.github.io">马雪莲的博客</a> 采用 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。</p>
-<p>本文首发于马雪莲的博客（ maxuelian.github.io），版权所有，侵权必究。</p>
-<p>我的联系方式，QQ：838505616</p>
-<p>######如果觉得我的文章对您有用，请随意打赏，您的支持将鼓励我继续创作！</p>
-<p><img src="http://i1.piimg.com/1949/2a51a1a48f059dc7.png" alt="打赏我"></p>
-
       
     </div>
     
@@ -296,6 +279,10 @@
       
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/09/01/hello-world/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
